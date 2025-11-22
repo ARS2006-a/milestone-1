@@ -23,30 +23,25 @@ export default function Footer() {
            
             <div className="flex space-x-3">
               <button 
-                className="bg-gray-700 hover:bg-yellow-600 px-3 py-1 rounded-full transition-colors"
-                aria-label="Visit our Facebook page"
-                title="Facebook"
+                className="bg-gray-700 hover:bg-yellow-600 px-3 py-1 rounded-full "
+
               >
                 F
               </button>
               <button 
-                className="bg-gray-700 hover:bg-yellow-600 px-3 py-1 rounded-full transition-colors"
-                aria-label="Follow us on Twitter"
-                title="Twitter"
+                className="bg-gray-700 hover:bg-yellow-600 px-3 py-1 rounded-full "
+
               >
                 T
               </button>
               <button 
-                className="bg-gray-700 hover:bg-yellow-600 px-3 py-1 rounded-full transition-colors"
-                aria-label="Subscribe to our YouTube channel"
-                title="YouTube"
+                className="bg-gray-700 hover:bg-yellow-600 px-3 py-1 rounded-full"
+                
               >
                 Y
               </button>
               <button 
-                className="bg-gray-700 hover:bg-yellow-600 px-3 py-1 rounded-full transition-colors"
-                aria-label="Connect on LinkedIn"
-                title="LinkedIn"
+                className="bg-gray-700 hover:bg-yellow-600 px-3 py-1 rounded-full"
               >
                 L
               </button>
@@ -127,11 +122,9 @@ export default function Footer() {
                 type="email"
                 placeholder="Enter your email"
                 className="w-full bg-transparent text-white outline-none text-sm"
-                aria-label="Email address for newsletter"
               />
               <button 
-                className="hover:bg-white hover:text-black bg-black text-white px-2 transition-colors"
-                aria-label="Subscribe to newsletter"
+                className="hover:bg-white hover:text-black bg-black text-white px-2 "
               >
                 →
               </button>
@@ -140,8 +133,7 @@ export default function Footer() {
           
             <div className="flex items-center mt-4 space-x-2">
               <button 
-                className="border border-gray-400 px-2 py-1 rounded text-white hover:bg-white hover:text-black transition-colors"
-                aria-label="Agree to privacy policy"
+                className="border border-gray-400 px-2 py-1 rounded text-white hover:bg-white hover:text-black"
               >
                 ✓
               </button>
