@@ -4,9 +4,9 @@ This is a modern and fully responsive restaurant website built using **Next.js (
 The site includes sections like Home, Menu, About, Chefs, Blog, Shop, and Contact.
 
 
-### 🔗 Live Website
+👉 ### 🔗 Live Website
 
-👉 milestone-1-pi-gold.vercel.app
+👉 [milestone-1-pi-gold.vercel.app](https://milestone-1-pi-gold.vercel.app)
 
 
 ### 📁 GitHub Repository
