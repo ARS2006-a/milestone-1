@@ -1,120 +1,75 @@
 "use client";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import OpeningHours from "../components/OpeningHours";
-
-
-export default function ContactPage() {
-  
+export default function OpeningHours() {
   return (
-    <div className="font-sans bg-black text-white">
-      <Header />
-
-      <header className="relative text-center py-[150px] px-5 bg-black overflow-hidden">
-        
-        <img
-          src="https://www.shutterstock.com/image-photo/japanese-seafood-sushi-on-black-260nw-412326955.jpg"
-          alt="Contact"
-          className="absolute inset-0 w-full h-full object-cover opacity-70"
-        />
-
-        
-        <div className="relative z-10">
-          <h1 className="text-4xl font-bold mb-3">Contact Us</h1>
-          <p className="text-sm">⌂ Home › Contact</p>
-        </div>
-      </header>
-
-
-      <section className="bg-white dark:bg-black text-black dark:text-white py-16 px-6">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+    <section className="relative bg-white dark:bg-black px-4 sm:px-6 lg:px-8">
+      
+      <div className="absolute left-50 top-30">
+        <h1 className="hidden md:block text-7xl lg:text-8xl font-light text-gray-200 dark:text-white opacity-50">
+  RESTAN
+</h1>
+      </div>
+      <div className="max-w-7xl mx-auto relative">
+        <div className="flex flex-col lg:flex-row gap-2 items-center lg:items-start">
           
-          
-          <div className="border border-gray-300 dark:border-neutral-700 rounded-lg p-6 bg-white dark:bg-neutral-900 shadow-sm">
-            <img
-              src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Fphone.png&w=640&q=75"
-              alt="Phone"
-              className="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 className="text-xl font-semibold mb-2">Hotline</h3>
-            <p className="text-gray-600 dark:text-gray-300">+4733378901</p>
-          </div>
+          <div
+  className="w-full md:w-1/2  ml-0 md:ml-20 mt-10 md:mt-60  h-[220px] sm:h-[260px] md:h-[550px] lg:h-[400px] rounded-2xl overflow-hidden ">
+  <iframe
+    src="https://www.youtube.com/embed/F3zw1Gvn4Mk?autoplay=1&mute=1&loop=1&playlist=F3zw1Gvn4Mk&controls=0&modestbranding=1"
+    className="w-full h-full rounded-xl"
+    title="YouTube player"
+    allow="autoplay; encrypted-media"
+    allowFullScreen
+  ></iframe>
+</div>
 
-          
-          <div className="border border-gray-300 dark:border-neutral-700 rounded-lg p-6 bg-white dark:bg-neutral-900 shadow-sm">
-            <img
-              src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Fplaceholder.png&w=640&q=75"
-              alt="Location"
-              className="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 className="text-xl font-semibold mb-2">Our Location</h3>
-            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              55 Main Street, The Grand Avenue 2nd Block, New York City
-            </p>
-          </div>
 
-          
-          <div className="border border-gray-300 dark:border-neutral-700 rounded-lg p-6 bg-white dark:bg-neutral-900 shadow-sm">
-            <img
-              src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Femail.png&w=640&q=75"
-              alt="Email"
-              className="w-12 h-12 mx-auto mb-4"
-            />
-            <h3 className="text-xl font-semibold mb-2">Official Email</h3>
-            <p className="text-gray-600 dark:text-gray-300">info@restan.com</p>
-          </div>
-        </div>
-      </section>
+          <div className="w-full lg:w-1/2 lg:-ml-20 lg:mt-8">
+            <div className="bg-white dark:bg-neutral-900 shadow-2xl rounded-xl p-8 mt-30 sm:p-10 relative">
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Opening Hours</h2>
+              <p className="text-gray-600 dark:text-gray-300 mb-8 text-sm leading-relaxed">
+                A relaxing and pleasant atmosphere, good jazz, dinner, and cocktails. The Patio Time Bar opens in the center.
+              </p>
 
-  
-      <section className="bg-gray-100 dark:bg-black py-16 px-6 flex flex-col items-center">
-        <div className="bg-white dark:bg-neutral-900 rounded-xl shadow-lg p-8 w-full max-w-3xl">
-          <h2 className="text-3xl font-bold mb-8 text-center text-black dark:text-white">
-            Send Us a Message
-          </h2>
-
-          <form className="flex flex-col gap-4">
-            
-            <div className="flex flex-col md:flex-row gap-4">
-              <input
-                type="text"
-                placeholder="Name"
-                className="w-full p-3 border border-gray-300 dark:border-neutral-700 rounded-md bg-white dark:bg-neutral-800 text-black dark:text-white placeholder-gray-500"
-              />
-              <input
-                type="email"
-                placeholder="Email"
-                className="w-full p-3 border border-gray-300 dark:border-neutral-700 rounded-md bg-white dark:bg-neutral-800 text-black dark:text-white placeholder-gray-500"
-              />
-              <input
-                type="text"
-                placeholder="Phone"
-                className="w-full p-3 border border-gray-300 dark:border-neutral-700 rounded-md bg-white dark:bg-neutral-800 text-black dark:text-white placeholder-gray-500"
-              />
-            </div>
-
-            
-            <textarea
-              placeholder="Your Message"
-              className="w-full p-3 h-40 border border-gray-300 dark:border-neutral-700 rounded-md bg-white dark:bg-neutral-800 text-black dark:text-white placeholder-gray-500"
-            ></textarea>
-
-           
-            <div className="flex justify-center mt-4">
-              <button
-                type="button"
-                className="bg-yellow-600 text-white px-8 py-3 rounded-full hover:bg-yellow-700 transition"
+              <div className="space-y-4 mb-8">
+                <div className="flex items-center justify-between text-sm">
+                  <span className="font-semibold text-gray-900 dark:text-gray-100">Sunday To Tuesday:</span>
+                  <span className="mx-3 flex-1 border-b border-dotted border-gray-300 dark:border-gray-600"></span>
+                  <span className="font-medium text-gray-700 dark:text-gray-300">10:00 - 09:00</span>
+                </div>
+                <div className="flex items-center justify-between text-sm">
+                  <span className="font-semibold text-gray-900 dark:text-gray-100">Wednesday To Thursday:</span>
+                  <span className="mx-3 flex-1 border-b border-dotted border-gray-300 dark:border-gray-600"></span>
+                  <span className="font-medium text-gray-700 dark:text-gray-300">11:30 - 10:30</span>
+                </div>
+                <div className="flex items-center justify-between text-sm">
+                  <span className="font-semibold text-gray-900 dark:text-gray-100">Friday & Saturday:</span>
+                  <span className="mx-3 flex-1 border-b border-dotted border-gray-300 dark:border-gray-600"></span>
+                  <span className="font-medium text-gray-700 dark:text-gray-300">10:30 - 12:00</span>
+                </div>
+              </div>
+             
+              <button 
+                className="bg-yellow-600 px-3 py-1 rounded-full "
               >
-                Get In Touch
+                <img src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F6.png&w=128&q=75"/>
               </button>
+                  <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">Call Anytime</p>
+                  <a href="tel:+964733378901" className="text-lg font-bold text-gray-900 dark:text-white hover:text-[#8b7355]">
+                    +964733-378901
+                  </a>
+                </div>
+              </div>
+              
+              <img 
+                src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fshape%2F4.png&w=3840&q=75" 
+                alt="Utensils decoration" 
+                className="absolute -right-8 -bottom-8 w-64 opacity-20 pointer-events-none" 
+              />
             </div>
-          </form>
-        </div>
-      </section>
-
-      <OpeningHours />
-      <Footer />
-    </div>
+          </div>
+        
+     
+    </section>
   );
 }

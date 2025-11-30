@@ -15,14 +15,14 @@ export default function BlogStandard() {
 
      
       <header className="text-center py-[150px] px-5 bg-[url('https://www.shutterstock.com/image-photo/japanese-seafood-sushi-on-black-260nw-412326955.jpg')] bg-cover bg-center text-white">
-        <h1 className="text-4xl font-bold mb-3">Blog Standard</h1>
+        <h1 className="heading text-5xl font-bold mb-3">Blog Standard</h1>
         <p className="text-sm">⌂ Home › blog-standard</p>
       </header>
 
      
       <section className="bg-white dark:bg-black py-16 flex flex-col items-center gap-8">
         
-        <div className="w-3/4 flex flex-col rounded-lg overflow-hidden shadow-lg bg-white dark:bg-neutral-900">
+        <div className="w-3/4 flex flex-col rounded-lg  shadow-lg bg-white dark:bg-neutral-900">
           <img
             src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F1-full.jpg&w=3840&q=75"
             alt="Burger"
@@ -107,22 +107,21 @@ export default function BlogStandard() {
             🚫
           </button>
 
-          <button className="w-10 h-10 border border-gray-300 rounded-md bg-yellow-700 text-white font-bold hover:bg-yellow-800 transition">
+          <button className="w-10 h-10 border border-gray-300 rounded-md bg-yellow-700 text-white font-bold ">
             1
           </button>
-          <button className="w-10 h-10 border border-gray-300 rounded-md bg-white text-black font-bold hover:bg-gray-100 transition">
+          <button className="w-10 h-10 border border-gray-300 rounded-md bg-white text-black font-bold ">
             2
           </button>
-          <button className="w-10 h-10 border border-gray-300 rounded-md bg-white text-black font-bold hover:bg-gray-100 transition">
-            3
-          </button>
-          <button className="w-10 h-10 border border-gray-300 rounded-md bg-white text-black font-bold hover:bg-gray-100 transition">
+          <button className="w-10 h-10 border border-gray-300 rounded-md bg-white text-black font-bold ">
+          3</button>
+          <button className="w-10 h-10 border border-gray-300 rounded-md bg-white text-black font-bold ">
             4
           </button>
-          <button className="w-10 h-10 border border-gray-300 rounded-md bg-white text-black font-bold hover:bg-gray-100 transition">
+          <button className="w-10 h-10 border border-gray-300 rounded-md bg-white text-black font-bold ">
             5
           </button>
-          <button className="w-10 h-10 border border-gray-300 rounded-md flex items-center justify-center hover:bg-gray-100 transition">
+          <button className="w-10 h-10 border border-gray-300 rounded-md flex items-center justify-center">
             »
           </button>
         </div>
