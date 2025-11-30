@@ -1,124 +1,106 @@
-# Restaurant Website 🍽️
+# 🍽️ RESTAN – Restaurant Website
 
-A modern, responsive restaurant website built with Next.js featuring menu display, contact information, and blog sections.
+This is a modern and fully responsive restaurant website built using **Next.js (App Router)** and **Tailwind CSS**.
+The site includes sections like Home, Menu, About, Chefs, Blog, Shop, and Contact.
 
-## 📖 About
 
-This is a comprehensive restaurant website that showcases a modern dining experience. The website includes multiple pages such as Home, Menu, Contact, Blog, and Shop, all designed with a focus on user experience and responsive design.
+### 🔗 Live Website
 
-## ✨ Features
+👉 
 
-- 🏠 **Home Page**: Hero section with restaurant branding and navigation
-- 🍽️ **Menu Page**: Display of food items with categories and pricing
-- 📞 **Contact Page**: Contact form and restaurant information
-- 📝 **Blog Page**: Latest news and articles about the restaurant
-- 🛒 **Shop Page**: Food items available for purchase
-- 🌙 **Dark/Light Theme**: Toggle between themes
-- 📱 **Responsive Design**: Works on all device sizes
-- ⚡ **Fast Loading**: Optimized performance
-- 🎨 **Modern UI**: Clean and professional design
 
-## 🛠️ Technologies Used
+### 📁 GitHub Repository
 
-- **Frontend:**
-  - Next.js 16 - React framework
-  - React - UI library
-  - Tailwind CSS - Styling framework
-  - JavaScript - Programming language
+👉
 
-- **Deployment:**
-  - Vercel - Hosting platform
 
-## 🚀 Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ARS2006-a/milestone-1.git
-   cd milestone-1
-   ```
+## ⭐ Features
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+* Clean and elegant UI
+* Fully responsive design
+* Multiple pages (Home, About, Menu, Contact, Shop, Chef, Blog)
+* Fast loading (Vercel)
+* Reusable components (Header, Footer, Chefs, Opening Hours)
 
-3. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
+## 🌟 Pages
 
-4. **Open your browser:**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+- *Home Page*: Hero section with restaurant branding and navigation
+- *Menu Page*: Display of food items with categories and pricing
+- *Contact Page*: Contact form and restaurant information
+- *Blog Page*: Latest news and articles about the restaurant
+- *Shop Page*: Food items available for purchase
 
-## 💻 Usage
 
-### Development
-```bash
-npm run dev     # Start development server
-npm run build   # Build for production
-npm run start   # Start production server
-npm run lint    # Run ESLint
-```
+## 🛠️ Tech Stack
 
-### Deployment
-The project is automatically deployed to Vercel when changes are pushed to the main branch.
+* ⚛️ Next.js
+* 💨 Tailwind CSS
+* 🔄 React Components
+* 🌐 Vercel Deployment
 
-## 📁 Project Structure
+
+## 📂 Project Structure
 
 ```
-restaurant-website/
-├── app/
-│   ├── components/
-│   │   ├── Header.js        # Navigation header
-│   │   ├── Footer.js        # Footer component
-│   │   ├── OpeningHours.js  # Restaurant hours
-│   │   ├── Chefs.js         # Chef profiles
-│   │   └── ThemeToggle.js   # Dark/light mode toggle
-│   ├── menu/
-│   │   └── page.js          # Menu page
-│   ├── contact/
-│   │   └── page.js          # Contact page
-│   ├── blog/
-│   │   └── page.js          # Blog page
-│   ├── shop/
-│   │   └── page.js          # Shop page
-│   ├── page.js              # Home page
-│   ├── layout.js            # Root layout
-│   └── globals.css          # Global styles
-├── public/                  # Static assets
-├── package.json            # Dependencies
-├── next.config.mjs         # Next.js configuration
-├── tailwind.config.js      # Tailwind configuration
-└── README.md              # Project documentation
+app/
+│
+├── about/
+│   └── page.js
+├── blog/
+│   └── page.js
+├── chef/
+│   └── page.js
+├── contact/
+│   └── page.js
+├── menu/
+│   └── page.js
+├── shop/
+│   └── page.js
+│
+├── components/
+│   ├── Chefs.js
+│   ├── Footer.js
+│   ├── Header.js
+│   └── OpeningHours.js
+│
+├── layout.js
+├── page.js
+└── globals.css
+```
+
+Other Files:
+
+```
+public/ -> images & assets
+package.json
+next.config.js
+postcss.config.mjs
+jsconfig.json
 ```
 
 
+## ▶️ How to Run Locally
 
-## 🤝 Contributing
+### Install Packages
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+```
+npm install
+```
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### Start Dev Server
 
-## 📄 License
+```
+npm run dev
+```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
-
-**ARS2006**
-- GitHub: [@ARS2006-a](https://github.com/ARS2006-a)
-- Project Link: [https://github.com/ARS2006-a/milestone-1](https://github.com/ARS2006-a/milestone-1)
-- Live Demo: [milestone-1-pi-gold.vercel.app](milestone-1-pi-gold.vercel.app)
-
----
-
-⭐ **If you found this project helpful, please give it a star!** ⭐
-
----
+Runs at → [http://localhost:3000/](http://localhost:3000/)
 
 
+## 🌍 Deployment
+
+Deployed using **Vercel**
+
+```
+vercel deploy
+```
