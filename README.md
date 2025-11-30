@@ -2,9 +2,6 @@
 
 A modern, responsive restaurant website built with Next.js featuring menu display, contact information, and blog sections.
 
-## 🌐 Live Demo
-
-**🔗 [View Live Website](https://milestone-1-ars2006.vercel.app)**
 
 ## 📋 Table of Contents
 
@@ -14,7 +11,6 @@ A modern, responsive restaurant website built with Next.js featuring menu displa
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -109,16 +105,7 @@ restaurant-website/
 └── README.md              # Project documentation
 ```
 
-## 📸 Screenshots
 
-### Home Page
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)
-
-### Menu Page
-![Menu Page](https://via.placeholder.com/800x400?text=Menu+Page+Screenshot)
-
-### Contact Page
-![Contact Page](https://via.placeholder.com/800x400?text=Contact+Page+Screenshot)
 
 ## 🤝 Contributing
 
@@ -139,7 +126,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **ARS2006**
 - GitHub: [@ARS2006-a](https://github.com/ARS2006-a)
 - Project Link: [https://github.com/ARS2006-a/milestone-1](https://github.com/ARS2006-a/milestone-1)
-- Live Demo: [https://milestone-1-ars2006.vercel.app](https://milestone-1-ars2006.vercel.app)
+- Live Demo: [milestone-1-pi-gold.vercel.app](milestone-1-pi-gold.vercel.app)
 
 ---
 
