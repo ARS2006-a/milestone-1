@@ -94,7 +94,7 @@ npm install
 npm run dev
 ```
 
-Runs at → [http://localhost:3000/](http://localhost:3000/)
+Runs at → [http://localhost:3000](http://localhost:3000)
 
 
 ## 🌍 Deployment
