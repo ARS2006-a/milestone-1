@@ -1,33 +1,98 @@
-# Restaurant Website
+# 🍽️ RESTAN – Restaurant Website
 
-A modern, responsive restaurant website built with Next.js featuring menu display, contact information, and blog sections.
+This is a modern and fully responsive restaurant website built using **Next.js (App Router)** and **Tailwind CSS**.
+The site includes sections like Home, Menu, About, Chefs, Blog, Shop, and Contact.
 
-## 🌟 Features
 
-- **Home Page**: Hero section with restaurant branding and navigation
-- **Menu Page**: Display of food items with categories and pricing
-- **Contact Page**: Contact form and restaurant information
-- **Blog Page**: Latest news and articles about the restaurant
-- **Shop Page**: Food items available for purchase
-- Responsive design with dark/light theme toggle
-- Modern UI with Tailwind CSS
+### 🔗 Live Website
 
-## 🚀 Live Demo
+👉 https://milestone-1-ars2006.vercel.app
 
-[View Live Application](https://milestone-1-ars2006.vercel.app)
 
-## 🛠️ Technologies Used
+### 📁 GitHub Repository
 
-- **Next.js 16** - React framework
-- **React** - UI library
-- **Tailwind CSS** - Styling framework
-- **JavaScript** - Programming language
+👉 https://github.com/ARS2006-a/milestone-1
 
-## 🏃♂️ Getting Started
 
-### Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/ARS2006-a/milestone-1.git
-cd milestone-1
+## ⭐ Features
+
+* Clean and elegant UI
+* Fully responsive design
+* Multiple pages (Home, About, Menu, Contact, Shop, Chef, Blog)
+* Fast loading (Vercel)
+* Reusable components (Header, Footer, Chefs, Opening Hours)
+
+
+## 🛠️ Tech Stack
+
+* ⚛️ Next.js
+* 💨 Tailwind CSS
+* 🔄 React Components
+* 🌐 Vercel Deployment
+
+
+## 📂 Project Structure
+
+```
+app/
+│
+├── about/
+│   └── page.js
+├── blog/
+│   └── page.js
+├── chef/
+│   └── page.js
+├── contact/
+│   └── page.js
+├── menu/
+│   └── page.js
+├── shop/
+│   └── page.js
+│
+├── components/
+│   ├── Chefs.js
+│   ├── Footer.js
+│   ├── Header.js
+│   └── OpeningHours.js
+│
+├── layout.js
+├── page.js
+└── globals.css
+```
+
+Other Files:
+
+```
+public/ -> images & assets
+package.json
+next.config.js
+postcss.config.mjs
+jsconfig.json
+```
+
+
+## ▶️ How to Run Locally
+
+### Install Packages
+
+```
+npm install
+```
+
+### Start Dev Server
+
+```
+npm run dev
+```
+
+Runs at → [http://localhost:3000/](http://localhost:3000/)
+
+
+## 🌍 Deployment
+
+Deployed using **Vercel**
+
+```
+vercel deploy
+```
