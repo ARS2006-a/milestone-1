@@ -2,19 +2,6 @@
 
 A modern, responsive restaurant website built with Next.js featuring menu display, contact information, and blog sections.
 
-
-## 📋 Table of Contents
-
-- [About](#about)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## 📖 About
 
 This is a comprehensive restaurant website that showcases a modern dining experience. The website includes multiple pages such as Home, Menu, Contact, Blog, and Shop, all designed with a focus on user experience and responsive design.
@@ -134,4 +121,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Made with ❤️ by ARS2006*
+
