@@ -6,12 +6,12 @@ The site includes sections like Home, Menu, About, Chefs, Blog, Shop, and Contac
 
 ### 🔗 Live Website
 
-👉 
+👉 milestone-1-pi-gold.vercel.app
 
 
 ### 📁 GitHub Repository
 
-👉
+👉 https://github.com/ARS2006-a/milestone-1
 
 
 
