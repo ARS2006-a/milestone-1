@@ -1,98 +1,150 @@
-# 🍽️ RESTAN – Restaurant Website
+# Restaurant Website 🍽️
 
-This is a modern and fully responsive restaurant website built using **Next.js (App Router)** and **Tailwind CSS**.
-The site includes sections like Home, Menu, About, Chefs, Blog, Shop, and Contact.
+A modern, responsive restaurant website built with Next.js featuring menu display, contact information, and blog sections.
 
+## 🌐 Live Demo
 
-### 🔗 Live Website
+**🔗 [View Live Website](https://milestone-1-ars2006.vercel.app)**
 
-👉 https://milestone-1-ars2006.vercel.app
+## 📋 Table of Contents
 
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### 📁 GitHub Repository
+## 📖 About
 
-👉 https://github.com/ARS2006-a/milestone-1
+This is a comprehensive restaurant website that showcases a modern dining experience. The website includes multiple pages such as Home, Menu, Contact, Blog, and Shop, all designed with a focus on user experience and responsive design.
 
+## ✨ Features
 
+- 🏠 **Home Page**: Hero section with restaurant branding and navigation
+- 🍽️ **Menu Page**: Display of food items with categories and pricing
+- 📞 **Contact Page**: Contact form and restaurant information
+- 📝 **Blog Page**: Latest news and articles about the restaurant
+- 🛒 **Shop Page**: Food items available for purchase
+- 🌙 **Dark/Light Theme**: Toggle between themes
+- 📱 **Responsive Design**: Works on all device sizes
+- ⚡ **Fast Loading**: Optimized performance
+- 🎨 **Modern UI**: Clean and professional design
 
-## ⭐ Features
+## 🛠️ Technologies Used
 
-* Clean and elegant UI
-* Fully responsive design
-* Multiple pages (Home, About, Menu, Contact, Shop, Chef, Blog)
-* Fast loading (Vercel)
-* Reusable components (Header, Footer, Chefs, Opening Hours)
+- **Frontend:**
+  - Next.js 16 - React framework
+  - React - UI library
+  - Tailwind CSS - Styling framework
+  - JavaScript - Programming language
 
+- **Deployment:**
+  - Vercel - Hosting platform
 
-## 🛠️ Tech Stack
+## 🚀 Installation
 
-* ⚛️ Next.js
-* 💨 Tailwind CSS
-* 🔄 React Components
-* 🌐 Vercel Deployment
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ARS2006-a/milestone-1.git
+   cd milestone-1
+   ```
 
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-## 📂 Project Structure
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-```
-app/
-│
-├── about/
-│   └── page.js
-├── blog/
-│   └── page.js
-├── chef/
-│   └── page.js
-├── contact/
-│   └── page.js
-├── menu/
-│   └── page.js
-├── shop/
-│   └── page.js
-│
-├── components/
-│   ├── Chefs.js
-│   ├── Footer.js
-│   ├── Header.js
-│   └── OpeningHours.js
-│
-├── layout.js
-├── page.js
-└── globals.css
-```
+4. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-Other Files:
+## 💻 Usage
 
-```
-public/ -> images & assets
-package.json
-next.config.js
-postcss.config.mjs
-jsconfig.json
-```
-
-
-## ▶️ How to Run Locally
-
-### Install Packages
-
-```
-npm install
+### Development
+```bash
+npm run dev     # Start development server
+npm run build   # Build for production
+npm run start   # Start production server
+npm run lint    # Run ESLint
 ```
 
-### Start Dev Server
+### Deployment
+The project is automatically deployed to Vercel when changes are pushed to the main branch.
+
+## 📁 Project Structure
 
 ```
-npm run dev
+restaurant-website/
+├── app/
+│   ├── components/
+│   │   ├── Header.js        # Navigation header
+│   │   ├── Footer.js        # Footer component
+│   │   ├── OpeningHours.js  # Restaurant hours
+│   │   ├── Chefs.js         # Chef profiles
+│   │   └── ThemeToggle.js   # Dark/light mode toggle
+│   ├── menu/
+│   │   └── page.js          # Menu page
+│   ├── contact/
+│   │   └── page.js          # Contact page
+│   ├── blog/
+│   │   └── page.js          # Blog page
+│   ├── shop/
+│   │   └── page.js          # Shop page
+│   ├── page.js              # Home page
+│   ├── layout.js            # Root layout
+│   └── globals.css          # Global styles
+├── public/                  # Static assets
+├── package.json            # Dependencies
+├── next.config.mjs         # Next.js configuration
+├── tailwind.config.js      # Tailwind configuration
+└── README.md              # Project documentation
 ```
 
-Runs at → [http://localhost:3000/](http://localhost:3000/)
+## 📸 Screenshots
 
+### Home Page
+![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)
 
-## 🌍 Deployment
+### Menu Page
+![Menu Page](https://via.placeholder.com/800x400?text=Menu+Page+Screenshot)
 
-Deployed using **Vercel**
+### Contact Page
+![Contact Page](https://via.placeholder.com/800x400?text=Contact+Page+Screenshot)
 
-```
-vercel deploy
-```
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+**ARS2006**
+- GitHub: [@ARS2006-a](https://github.com/ARS2006-a)
+- Project Link: [https://github.com/ARS2006-a/milestone-1](https://github.com/ARS2006-a/milestone-1)
+- Live Demo: [https://milestone-1-ars2006.vercel.app](https://milestone-1-ars2006.vercel.app)
+
+---
+
+⭐ **If you found this project helpful, please give it a star!** ⭐
+
+---
+
+*Made with ❤️ by ARS2006*
